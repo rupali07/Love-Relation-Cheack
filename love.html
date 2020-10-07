@@ -1,0 +1,92 @@
+<!--!DOCTYPE html>
+<html>
+<head>
+	<title>love calculator</title>
+	<link rel="stylesheet" type="text/css" href="love.css">
+</head>
+<body>
+		<div id="main">
+		
+			<div class ="header">
+			<h1>Welcom To Love Calculator</h1>
+		
+			</div>
+			<div class="love">
+				<h2>Check Your Relation</h2>
+				<input type="text" name="" id="username" placeholder="Your Name">
+				<input type="text" name="" id="crushname" placeholder="Crush Name"><br>
+				<input type="button" id="button" value="Calculate" onclick="myfun()"></button>
+				<h4>God Bless Your Relation</h4>
+				
+				
+			</div>
+		</div>
+		<script>
+			function myfun(){
+
+			}
+		</script>
+
+
+</body></html>
+</html-->
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Love calculator</title>
+	<link rel="stylesheet" type="text/css" href="love.css">
+</head>
+<body>
+	<script> 
+		function love(){
+			var name = document.getElementById('username').value;
+  			var lname = document.getElementById('crushname').value;
+
+  			if(name == ""){
+   			alert('Please enter your name');
+  			}else if (name.length <=2 ) {
+   			alert('Min lenght is 3')
+  			}else if(!isNaN(name)){
+   			alert('Numbers are not allowed');
+  			}
+
+ 			 else if(lname == ""){
+   			alert('Please enter your love name');
+  			}else if (lname.length <=2 ) {
+   			alert('Min lenght is 3')
+  			}else if(!isNaN(lname)){
+   			alert('Numbers are not allowed');
+  			}
+			else{
+				var lovdata = Math.random() * 100;
+            lovdata = Math.floor(lovdata);
+            document.getElementById('loveper').value = lovdata+"%";
+        }
+
+	}
+</script>
+	<header id="header" class="header">
+		<h1>Welcome To Love Calculator</h1>
+	</header><!-- /header -->
+	<section class="main">
+		<div class="first">
+			<h3>Cheack the Love relation</h3>
+		</div>
+		<div class="form">
+			<input type="text" name="" id="username" placeholder="Enter Your Name">
+			<input type="text" name="" id="crushname" placeholder="Enter Crush Name">
+			<button id="button" onclick="love()">Calculation</button><br>
+			<input type="text" name="" id="loveper" placeholder="Love Percent">
+			
+		</div>
+		<div class=" last">
+			<h3>God Bless your Relation</h3>
+			
+		</div>
+		
+
+		
+	</section>
+
+</body>
+</html>

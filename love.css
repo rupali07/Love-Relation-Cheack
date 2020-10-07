@@ -1,0 +1,141 @@
+/*{
+	margin: 0px;
+	padding: 0px;
+	
+}
+body{
+	background-image: url('C:/Users/Abhi/Desktop/htmlpics/lcal.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+
+}
+.love{
+	width: 100%;
+	height: 200px;
+	margin-top: 10%;
+	text-align: center;
+	border: 1px black solid;
+
+	
+}
+.header{
+    width: 100%;
+    height: 100px;
+}
+.header h1{
+	text-align:center;
+	padding: 30px;
+}
+.love h2{
+	padding: 20px;
+}
+.love h4{
+	padding: 20px;
+}
+#username{
+	height: 30px;
+	padding-left: 20px;
+
+}
+#crushname{
+	margin: 20px;
+	height: 30px;
+	padding-left: 20px;
+
+}
+#button{
+	text-align: center;
+	height: 40px;
+	width: 100px;
+	background-color: 
+
+}*/
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	background-image: url('C:/Users/Abhi/Desktop/htmlpics/lcal.jpg');
+	background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)),url('C:/Users/Abhi/Desktop/htmlpics/lcal.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 100vh;
+	}
+.header{
+	width: 100%;
+	height: 100px;
+}
+.header h1{
+	transform: rotate(right);
+	text-align: center; 
+	padding: 30px;
+	color: white;
+}
+section{
+	border: 1px solid black;
+	background-color:#ff99cc;
+	width: 40%;
+	height: 290px;
+	text-align:center ;
+	margin-left: 30%;
+	margin-top: 10%;
+	opacity: 0.8;
+	/*top: 50%;
+	left: 50%;*/
+	/*margin: auto;*/
+}
+.first{
+	background-color: #BA2288;
+	height: 50px;
+
+}
+.first h3{
+	text-align:center ;
+	color: white;
+	padding: 15px;
+}
+#username{
+	width: 120px;
+	padding-left: 10px;
+	height: 25px;
+	
+}
+#crushname{
+	width: 120px;
+	margin: 20px;
+	padding-left: 15px;
+	height: 25px;
+
+}
+#button{
+	margin: 5px;
+	height: 25px;
+	background-color: #BA2288;
+	opacity: 0.9;
+	color: white;
+	width: 90px;
+	height: 30px; 
+
+}
+#loveper{
+	text-align:center ;
+	width: 100px;
+	margin: 20px;
+	height: 25px;
+
+}
+.last{
+	width:100%; 
+	height: 50px;
+	background-color: #BA2288;
+	opacity: 0.9;
+}
+.last h3{
+	text-align:center ;
+	color: white;
+	margin: 10px;
+	padding: 15px;
+}
+
