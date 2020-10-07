@@ -1,1 +1,1 @@
-# Love-Relation-Cheack
+# Love-Relation-Check
